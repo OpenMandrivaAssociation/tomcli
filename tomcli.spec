@@ -5,7 +5,7 @@
 Name:		tomcli
 Summary:	CLI for working with TOML files
 Version:	0.10.1
-Release:	1
+Release:	2
 License:	MIT
 Group:		Development/Python
 URL:		https://pypi.org/project/tomcli
@@ -13,7 +13,7 @@ Source0:	https://files.pythonhosted.org/packages/source/t/%{module}/%{module}-%{
 
 BuildSystem:	python
 BuildArch:	noarch
-BuildRequires:	pkgconfig(python)
+BuildRequires:	pkgconfig(python3)
 BuildRequires:	python%{pyver}dist(click)
 BuildRequires:	python%{pyver}dist(flit-core)
 BuildRequires:	python%{pyver}dist(wheel)
